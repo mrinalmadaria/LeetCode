@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namesapce std;
+using namespace std;
 
 class Solution {
 public:
@@ -51,4 +51,4 @@ public:
 
         return std::vector<int>(knownSet.begin(), knownSet.end());
     }
-}
+};
