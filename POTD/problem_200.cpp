@@ -27,6 +27,7 @@ private:
             return;
         }
         
+        // TRAVERSING THE GRIDS
         grid[i][j] = '0'; // mark as visited
         dfs(grid, i + 1, j); // down
         dfs(grid, i - 1, j); // up
